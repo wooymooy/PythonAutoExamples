@@ -1,0 +1,50 @@
+#! python3
+# reportsTest.py - Will hopefully open IE and run a report for a given day.
+
+import webbrowser, bs4, time , pyautogui
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+
+
+browser = webdriver.Firefox() #Opens up FF in a new browser
+type(browser) #checks
+browser.get('https://reports.loanmart.com/Reports/Pages/Report.aspx?' #Link of report
+            'ItemPath=%2fReports%2fPhone+Reports%2fIndividual+Phone+Summary')
+time.sleep(3)
+pyautogui.click(652, 397, duration=0.25)
+pyautogui.typewrite('rweathers')
+pyautogui.click(644, 422, duration=0.25)
+pyautogui.typewrite('QWE123qwe')
+pyautogui.click(674, 454, duration=0.25)
+browser.maximize_window()
+browser.implicitly_wait(5)
+
+#TODO INPUT THE START DATE
+
+startDate = browser.find_element_by_name('ctl31$ctl04$ctl03$txtValue') #HTML id ele of start date
+startDate.send_keys('1/4/2016') #Given date
+time.sleep(3)
+
+#TODO CLICK THE END DATE
+
+pyautogui.click(497, 113, duration=0.25)
+time.sleep(3)
+pyautogui.click(497, 113, duration=0.25)
+pyautogui.typewrite(time.strftime("%m/%d/%Y"))
+
+
+
+#Getting a problem with refreshing the page after given the first date.
+
+#endDate = browser.find_element_by_name('ctl31$ctl04$ctl05$txtValue')
+#endDate.send_keys('1/4/2016') #Given date
+#endDate = browser.find_element_by_name('ctl31$ctl04$ctl05$ddDropDownButton').click() # HTML id ele of end date
+#time.sleep(2)
+#endDate2 = browser.find_element_by_link_text('javascript:ClickDay').click()
+
+
+#endDate.send_keys('1/5/2016') #typing the given date
+
