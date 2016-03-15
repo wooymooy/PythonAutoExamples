@@ -1,0 +1,152 @@
+#This program will Launch all of my AC accounts
+#This was made because I am lazy.
+
+import os,time,pyautogui
+
+def sleepClick():
+     time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+
+print ("Pick a menu: \n")
+print ("1.All 18 Accounts.\n")
+print ("2.Group A.\n")
+print ("3.Group B.\n")
+print ("4.Just Mooy.\n")
+print ("6.Just Newb Archers.\n")
+
+
+selection = input(">> ")
+
+#File Paths to the shortcut created.
+WooyAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\WooyAC.lnk"
+MooyAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\MooyAC.lnk"
+TayneAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\TayneAC.lnk"
+NozomiAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\NozomiAC.lnk"
+Xiuying = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\Xiuying.lnk"
+AresAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\AresAC.lnk"
+BooAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\BooAC.lnk"
+Zorthamor = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\Zorthamor.lnk"
+XolaAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\XolaAC.lnk"
+Cartwer244 = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\Cartwer244.lnk"
+NayokoAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\NayokoAC.lnk"
+HyeonAC   = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\SakurakoAC.lnk"
+ShenmueAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\ShenmueAC.lnk"
+TinasheAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\TinasheAC.lnk"
+KnozeAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\KnozeAC.lnk"
+AyatsujiAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\AyatsujiAC.lnk"
+IkkiAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\IkkiAC.lnk"
+ShenhuaAC = "C:\\Users\\rweathers\\Desktop\\AC\\AC\\ShenhuaAC.lnk"
+
+
+
+#pyautogui.moveTo(907, 697, duration=2.00)
+
+if selection == '1':
+
+#Lets run the programs with os.startfile , perhaps a loop?
+#Possible with individual files?
+
+    os.startfile(WooyAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(MooyAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(TayneAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(NozomiAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(Xiuying)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(AresAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(BooAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(Zorthamor)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(XolaAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(Cartwer244)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(NayokoAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(HyeonAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(ShenmueAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(TinasheAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(KnozeAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(AyatsujiAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(IkkiAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(ShenhuaAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    print ("Operations has been completed.")
+
+elif selection == '2':
+
+    os.startfile(WooyAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(MooyAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(TayneAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(NozomiAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(Xiuying)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(AresAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(BooAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(Zorthamor)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(XolaAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    print ("Operations has been completed.")
+
+elif selection == '3':
+    os.startfile(NayokoAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(HyeonAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(ShenmueAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(TinasheAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(KnozeAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(AyatsujiAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(IkkiAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(ShenhuaAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    print ("Operations has been completed.")
+
+elif selection == '4':
+    os.startfile(WooyAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    print ("Operations has been completed.")
+
+elif selection == '5':
+    os.startfile(TinasheAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(KnozeAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(AyatsujiAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(IkkiAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(ShenhuaAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    print ("Operations has been completed.")
+
+elif selection == '6':
+    os.startfile(NayokoAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(HyeonAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    os.startfile(ShenmueAC)
+    time.sleep(14),pyautogui.click(907,697), time.sleep(1)
+    print ("Operations has been completed.")
